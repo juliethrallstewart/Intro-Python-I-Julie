@@ -54,3 +54,4 @@ print(waypoints)
 for waypoint in waypoints: 
     for field, value in waypoint.items():
         print(field, value)
+        
