@@ -1,4 +1,12 @@
+# run python in vsCode terminal 
+
+nodemon --exec pipenv run python <filename>
+
+ie: nodemon --exec pipenv run python src/11_args.py
+
 # Intro to Python I
+
+
 
 It's time to learn a new language! Python!
 
