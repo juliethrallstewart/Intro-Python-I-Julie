@@ -22,3 +22,20 @@ and does the following:
 import sys
 import calendar
 from datetime import datetime
+#https://stackabuse.com/introduction-to-the-python-calendar-module/
+def get_calendar():
+      calendar_lookup = input("Enter year, month: ")
+      cal_list = calendar_lookup.split(',')
+      if len(calendar_lookup) == 0:
+            return calendar.month(2019, 12)
+      elif len(cal_list) == 1:
+            return calendar.month(2019, int(calendar_lookup))
+      elif len(cal_list) == 2:
+            return calendar.month(int(cal_list[0]), int(cal_list[1]))
+      else: 
+        print("Please enter year & mm in correct format: 2019, 2")
+           
+            
+
+print(get_calendar())
+

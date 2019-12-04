@@ -51,4 +51,4 @@ print(y)
 
 # is 'p' an integer? 
 p = 1
-print(isinstance(p, int))
+print(isinstance(p, str))

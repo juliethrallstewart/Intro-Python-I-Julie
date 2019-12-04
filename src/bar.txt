@@ -1,0 +1,4 @@
+did I open my new file correctly? 
+I certainly hope so! 
+here goes a test!Yay! it worked! 
+But is this how you append new lines in the file?

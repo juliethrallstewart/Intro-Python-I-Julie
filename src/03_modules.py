@@ -14,6 +14,9 @@ import fileinput
 # YOUR CODE HERE
 print(sys.argv[0], "sys args [0]")
 
+# cd into src or the file directory itself
+# in terminal $python 03_modules.py
+# in terminal $python 03_modules.py tacos pizza
 args = [arg for arg in sys.argv]
 print(args)
 

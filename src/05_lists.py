@@ -13,8 +13,14 @@ print(x)
 
 # Using y, change x so that it is [1, 2, 3, 4, 8, 9, 10]
 # YOUR CODE HERE 
-for num in y:
-    x.append(num)
+# for num in y:
+#     x.append(num)
+
+# list addition
+# x = x + y
+#list extend()
+x.extend(y)
+
 print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 10]
